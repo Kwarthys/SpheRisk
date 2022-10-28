@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AtmopshereMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: 06e5431677dcff341ac9683ee338d89e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_4899e78a73bc4576aa9cb257c37d1aad: 4
+    - Vector1_58f2f1567c054bf5ad3ec31d7e5768e3: 0.98
+    - Vector1_ae6a9f444239480ead93d8d8a49c93df: 0.736
+    - Vector1_b437d9f5b1074e11805253dac812feb1: 0.542
+    - _AtmFallOffStop: 0.7000352
+    - _AtmGlobalAlpha: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Color_e0bbcc88dee64c0283966806ea97e9df: {r: 0.20784314, g: 0.64924425, b: 0.83137256, a: 1}
+    - _AtmosphereColor: {r: 0, g: 0.28420138, b: 1, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &9165111854290924608
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4903986814695999166
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PlanetSeasMat
+  m_Shader: {fileID: -6465566751694194690, guid: f8ff96f5121de3647a4b96302c345767, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _PlanetTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_02243cba96654181b77b4c0b83209706: 0.05
+    - Vector1_791194f2ebdb4c1e8ebebfb18680303b: 0.02
+    - Vector1_81c863e4366246daada7291e4b3d3f93: 0
+    - Vector1_fbb6e1eb753c4fae83a0c35ba88529d2: 0.2
+    - _SeaLevel: 0.9944127
+    m_Colors:
+    - Vector2_2d395ad4c37a4a6eb5fb8cf2ba2efe39: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_a1b7ce99f235494ea69ea30fd75dd840: {r: 0.7, g: 1, b: 0, a: 0}
+    - _ElevationMinMax: {r: 1, g: 1.1174248, b: 0, a: 0}
+    - _MinMaxAlpha: {r: 0.7, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
